@@ -33,6 +33,11 @@ public class FriendlyMessage {
         this.imageUrl = imageUrl;
     }
 
+    public FriendlyMessage(String text, String name, String photoUrl)
+    {
+        this(text, name, photoUrl, null);
+    }
+
     public String getId() {
         return id;
     }
